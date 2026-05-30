@@ -1,5 +1,7 @@
 package Model.Produtos;
 
+import java.util.ArrayList;
+
 public class Produto {
     public int id;
     public String nome;
@@ -10,7 +12,6 @@ public class Produto {
         this.nome = nome;
         this.preco = preco;
     }
-
     public int getId() {
         return id;
     }
