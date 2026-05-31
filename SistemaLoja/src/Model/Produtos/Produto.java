@@ -1,8 +1,10 @@
 package Model.Produtos;
 
+import Model.Carrinho.Pedido;
+
 import java.util.ArrayList;
 
-public class Produto {
+public class Produto extends Pedido {
     public int id;
     public String nome;
     public double preco;
